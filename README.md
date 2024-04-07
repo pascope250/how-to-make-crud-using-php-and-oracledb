@@ -7,15 +7,16 @@ learn how to connect oracle db to php using Oracle instant client
 ===========================
 
 2. create user
+
 2.1. SELECT users
-->select username, created, account_status from dba_users;
--> create user [username] identified by [passwoword];
--> GRANT CREATE SESSION TO [USERNAME];
--> GRANT ALL PRIVILEGES TO [USERNAME];
--> SHUTDOWN
--> STARTUP
--> sqlplus / as sysdba
--> connect [username]/[password]
+  ->select username, created, account_status from dba_users;
+  -> create user [username] identified by [passwoword];
+  -> GRANT CREATE SESSION TO [USERNAME];
+  -> GRANT ALL PRIVILEGES TO [USERNAME];
+  -> SHUTDOWN
+  -> STARTUP
+  -> sqlplus / as sysdba
+  -> connect [username]/[password]
 
 
 SECOND STEP
